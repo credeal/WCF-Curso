@@ -18,9 +18,17 @@ namespace PassagensService
             _contexto = new ClienteDAO();
         }
 
-        public void Add(Cliente cliente)
+        public bool Add(string nome, string cpf)
         {
+            Cliente cliente = new Cliente()
+            {
+                Nome = nome,
+                Cpf = cpf
+            };
+
             _contexto.Add(cliente);
+
+            return true;
         }
 
         public Cliente Buscar(string nome)

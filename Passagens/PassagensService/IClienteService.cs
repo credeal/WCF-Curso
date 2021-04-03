@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,9 +15,12 @@ namespace PassagensService
     public interface IClienteService
     {
         [OperationContract]//Cada operação segue um contrato
+
+        [WebInvoke(Method = "Get", ResponseFormat = WebMessageFormat.Json,UriTemplate = "buscar/{nome}" )]
         Cliente Buscar(string nome);
 
         [OperationContract]
-        void Add(Cliente cliente);
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,UriTemplate ="addCliente/{nome};{cpf}")]
+        bool Add(string nome, string cpf);
     }
 }
