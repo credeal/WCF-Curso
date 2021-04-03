@@ -1,0 +1,7 @@
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\bin\Debug\PassagensService.dll.config
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\bin\Debug\PassagensService.dll
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\bin\Debug\PassagensService.pdb
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\obj\Debug\PassagensService.csprojAssemblyReference.cache
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\obj\Debug\PassagensService.csproj.CoreCompileInputs.cache
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\obj\Debug\PassagensService.dll
+C:\Users\21145\Documents\Developer\C#\WCF\Passagens\PassagensService\obj\Debug\PassagensService.pdb

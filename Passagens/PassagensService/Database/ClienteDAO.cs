@@ -19,9 +19,7 @@ namespace PassagensService.Database
 
         public Cliente Buscar(string nome)
         {
-            var resultado = Clientes.Where(c => c.Nome == nome);
-
-            return resultado as Cliente;
+            return Clientes.Where(c => c.Nome == nome).FirstOrDefault();
         }
     }
 }
